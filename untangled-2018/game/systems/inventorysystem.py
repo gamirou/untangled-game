@@ -101,6 +101,7 @@ class InventorySystem(System):
         # Get the item id and quantity
         if entity[Inventory].activeItem:
             item = entity[Inventory].activeItem
+            print(type(entity[Inventory].activeItem))
 
             if item[0] == "sword":
                 return
